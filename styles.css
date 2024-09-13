@@ -26,6 +26,14 @@ div a {
     background-color: white;
   }
 
+  .list-group {
+    align-items: center;
+  }
+
+  hr {
+    size: 1;
+  }
+
   .list-group-item {
     border: none;
   }
