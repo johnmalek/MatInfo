@@ -1,0 +1,43 @@
+div a {
+    display: block;
+}
+
+/* Container for the two columns */
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px; /* Optional: Adds space between the columns */
+  }
+
+  /* Style for the columns */
+  .column {
+    flex: 1; /* Each column will take equal space */
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  /* Optional: Add some background colors */
+  .left-column {
+    background-color: white;
+  }
+
+  .right-column {
+    background-color: white;
+  }
+
+  .list-group-item {
+    border: none;
+  }
+
+   /* Ensure the card's content is evenly spaced */
+   .card {
+    height: 100%;
+  }
+
+  /* Make sure the card-body stretches to take up the full height */
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
